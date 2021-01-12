@@ -1,4 +1,4 @@
-package com.company;
+package com.company.baibingsong.github.io;
 
 public class Main {
 
