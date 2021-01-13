@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(169, 169, 184);
+}
+
+em {
+    color: red;
+}
+
+h1 {
+    font-family: "Times New Roman",Georgia,Serif, sans-serif;
+}
+
+.one {
+    font-family: serif,cursive;
+}
+
+.two {
+    color: silver;
+}
+
+.three {
+    color: snow;
+}

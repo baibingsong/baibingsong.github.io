@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: solid 1px;
+}
+
+th {
+    background-color: green;
+    border: solid 1px;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+#ti {
+    text-align: center;
+}
+
+.main {
+    text-align: left;
+}
