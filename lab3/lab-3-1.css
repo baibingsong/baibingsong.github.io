@@ -1,0 +1,45 @@
+body {
+    background-image: url(background.gif);
+    margin-left: 15%;
+    margin-right: 15%;
+    color:rgb(139, 209, 148);
+}
+
+.wrapper {
+    border-color:white;
+    background-color: white;
+}
+.title {
+    text-align: right;
+    background-color: #A8F0F0;
+}
+
+.friends {
+    background-color:rgb(212, 212, 248);
+    border: solid 5px #8bfcfc;
+    border-radius: 15%;
+    float: left;
+    width: 15%;
+}
+
+.posts{
+    margin-left: 20%;
+}
+.post {
+    background-color:#E8FBFB;
+    padding:5px;
+    margin-top:10px;
+    border-style: solid ;
+    border-width: 4px;
+    border-color:#C2E9E9;
+    border-radius: 15px ;
+  }
+
+.date {
+    border-bottom: dashed 2px rgb(102, 102, 170);
+}
+
+.image{
+    display: inline;
+    float:right;
+}
