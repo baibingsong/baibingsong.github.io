@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link  href = "lab-4-1.css" rel = "stylesheet" type = "text/css"/>
+</head>
+<body>
+    <div class = wrapper>
+        <form action="/login" method="POST" enctype="text/plain">
+            <label for="fname">First name</label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <label for="mname">Middle Name(Optional)</label><br>
+            <input type="text" id="mname" name="mname"><br><br>
+
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname" required><br><br>
+
+            <label for="suffix">Suffix(Optional)</label><br>
+            <input type="text" id="suffix" name="suffix"><br><br>
+
+            <label for="address_line">Residential address line 1</label><br>
+            <input type="text" id="address_line" name="address_line" required><br><br>
+
+            <div class = "address_line2">
+                <label for="city">City</label><br>
+                <input type="text" id="city" name="city" placeholder="Fairfield" required>
+                
+                <label for="state">State</label><br>
+                <select id="state" name="state" required>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="California">California</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa" selected>Iowa</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New York">New York</option>
+                </select>
+
+                <label for="zip">Zip code</label><br>
+                <input type="text" id="zip" name="zip" placeholder="52557" pattern="[0-9]{5}" size = "5" maxlength="5" required><br><br>
+            </div>
+
+            <label for="phone">Primary phone number</label><br>
+            <input type="text" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" required><br>
+            <div class = "choose_phone">
+                <input type="radio" id="mobile_phone" name="phone">
+                <label for="mobile_phone">Mobile phone</label>
+                <input type="radio" id="home_phone" name="phone">
+                <label for="home_phone">Home phone</label><br><br>
+            </div>
+            <label for="email">Email address</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+
+            <label for="dob">Date of birth</label><br>
+            <input type="date" id="dob" name="dob" min="1900-01-01" max="2000-12-31" required><br><br>
+
+            <input type="submit" value="Submit">
+            
+        </form>
+    </div>
+</body>
+</html>

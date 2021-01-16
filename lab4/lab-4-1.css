@@ -1,0 +1,50 @@
+.wrapper{
+    margin:auto;
+    width:50%;
+    font: 1em sans-serif;
+}
+
+
+.choose_phone input{
+    width: 10px;
+    font: 1em sans-serif;
+    display: inline-block;
+}
+
+.address_line2{
+    width:min-content;
+    column-count: 3;
+    
+}
+
+
+.address_line2 input{
+    width: 90px;
+    float: left;
+}
+.address_line2 select{
+    width: 90px;
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+label {
+    display: inline-block;
+    width: auto;
+ 
+}
+
+input{
+
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    
+}
+
+input:focus {
+    border-color: #000;
+}
+
+
