@@ -1,0 +1,3 @@
+Refactor previous JavaScript labs 
+1. to keep the global namespace clean using IIFE, the module pattern
+2. to make code run on strict mode
