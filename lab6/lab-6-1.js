@@ -1,4 +1,5 @@
 (function () {
+    'use strict'
     let animation = null;
     let currentAminationText;
     let delay = 250;
